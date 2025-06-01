@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "77ddfc564f964ac43091027131d37056",
+    "content-hash": "004376202cb5049f3593ed621358cb5c",
     "packages": [
         {
             "name": "brick/math",
@@ -3111,6 +3111,39 @@
                 "source": "https://github.com/thephpleague/omnipay-paypal/tree/v3.0.2"
             },
             "time": "2018-05-15T10:35:58+00:00"
+        },
+        {
+            "name": "openai/openai",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/chicodgtal/openai.git",
+                "reference": "3943a54d2a974d4b3246842846cb0cf4414aa308"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/chicodgtal/openai/zipball/3943a54d2a974d4b3246842846cb0cf4414aa308",
+                "reference": "3943a54d2a974d4b3246842846cb0cf4414aa308",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Chico",
+                    "email": "chico@chicodgtal.com.br"
+                }
+            ],
+            "description": "ai integracao",
+            "support": {
+                "issues": "https://github.com/chicodgtal/openai/issues",
+                "source": "https://github.com/chicodgtal/openai/tree/main"
+            },
+            "time": "2023-03-12T12:19:36+00:00"
         },
         {
             "name": "paypal/paypal-checkout-sdk",
@@ -10540,13 +10573,15 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "openai/openai": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
         "php": "^8.1",
         "ext-mysqli": "*"
     },
-    "platform-dev": [],
+    "platform-dev": {},
     "plugin-api-version": "2.6.0"
 }
